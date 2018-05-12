@@ -1,0 +1,14 @@
+{
+  "name": "readafile",
+  "version": "1.0.0",
+  "description": "",
+  "main": "nodeex1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chris Michels",
+  "license": "MIT",
+  "dependencies": {
+    "readline": "^1.3.0"
+  }
+}
