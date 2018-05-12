@@ -12,7 +12,7 @@ rl.question('File input ', (input) =>{
     rl.close();
     fs.readFile(input, 'utf8', (err,data)=>{
         if(err) {return console.log(err)};
-        fs.copyFile(output, data, (err, info)=>{
+        fs.copyFile(output, data, (err)=>{
             if(err){return console.log(err)};
             console.log(data)
         })
