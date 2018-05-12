@@ -1,4 +1,4 @@
-const fs = require('fs');
+
 const dns = require('dns');
 const readline = require('readline');
 
