@@ -8,4 +8,4 @@ var callback = function (err) {
     if (err) {return console.log(err)};
     console.log('done');
 }
-extract(url,filename,callback)
+extract.savapage(url,filename,callback)

@@ -1,7 +1,7 @@
 const request = require('request');
 const fs = require('fs');
 
-module.exports = function(url, filename, callback){
+function savapage(url, filename, callback){
  request.get(url, (err, response, html) => {
   if (err) {
     console.log(err.message);
@@ -16,3 +16,4 @@ module.exports = function(url, filename, callback){
   });
 });
 }
+module.exports ={savapage}
