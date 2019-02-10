@@ -36,3 +36,4 @@ function downloadAndCreateThumbnail(url, filename, thumbnailFilename, callback){
 }
 
 module.exports = {downloadAndCreateThumbnail}
+
